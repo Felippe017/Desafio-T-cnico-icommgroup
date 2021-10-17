@@ -1,0 +1,138 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: 'Ubuntu';
+    overflow: hidden;
+}
+
+.flex-section-main {
+    display: flex;
+    flex-flow: wrap column;
+    overflow: hidden;
+    background-color: white;
+    align-content: center;
+    justify-content: center;
+    height: 50rem; 
+}
+
+.flex-section {
+    display: flex; 
+    flex-flow: wrap column;
+    overflow: hidden;
+    align-content: center;
+    justify-content: center;
+    width: 90%;
+    height: 60%;
+    background-color: #ededed;
+    margin: 0 5%;
+}
+
+.flex-div {
+   display: flex;
+   flex-flow: wrap row;
+   overflow: hidden;
+   justify-content: center;
+   align-content: space-around;
+   align-self: center;
+   background-color: #ededed;
+   width: 90%;  
+   height: 90%;
+} 
+
+.flex-divs {
+    display: flex;
+    background-color: orange;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 45%;
+    width: 30%;
+    margin: 10px;
+    line-height: 75px;
+}
+
+
+.cards {
+    display: flex;
+    align-self: flex-end;
+    width: 100%;
+    justify-content: space-between;    
+    overflow: hidden;
+}
+
+.sub-div-card {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    color: white;
+    overflow: hidden;
+}
+
+/* .apartir {
+    display: flex;
+    flex-direction: column;
+    color: white;
+} */
+
+p {
+    color: white;
+    padding: 1px 0px;
+    
+}
+
+.imagem {
+  background-image: url("./images/three-g16fb1d366_640.jpg"); 
+  background-size: cover;
+}
+.imagem-2 {
+    background-image: url("./images/man-g8ba6a86ce_1280.jpg");
+    background-size: cover;
+}
+.imagem-3 {
+    background-image: url("./images/female-g93dbac839_1280.jpg");
+    background-size: cover;
+}
+.imagem-4 {
+    background-image: url("./images/fashion-g3b223a47b_1280.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.imagem-5 {
+    background-image: url("./images/feet-g4f33e1281_1280.jpg");
+    background-size: cover;
+}
+
+.imagem-6 {
+    background-image: url("./images/adult-g76e97d62f_1280.jpg");
+    background-size: cover;
+}
+
+.mixed {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+    top: 299px;
+}
+
+.vestidos {
+    position: absolute;
+    z-index: 2;
+    top: 328px;
+}
+
+.down-images {
+    position: absolute;
+    z-index: 1;
+    top: 518px;
+}
+
+.down-images-2 {
+    position: absolute;
+    z-index: 2;
+    top: 518px;
+    top: 552px;
+}
