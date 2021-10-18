@@ -5,27 +5,23 @@
     font-size: 16px;
     box-sizing: border-box;
     font-family: 'Ubuntu';
-    overflow: hidden;
 }
 
 .flex-section-main {
     display: flex;
     flex-flow: wrap column;
-    overflow: hidden;
-    background-color: white;
     align-content: center;
     justify-content: center;
+    background-color: white;
     height: 50rem; 
 }
 
 .flex-section {
     display: flex; 
     flex-flow: wrap column;
-    overflow: hidden;
     align-content: center;
     justify-content: center;
-    width: 90%;
-    height: 60%;
+    height: 45rem;
     background-color: #ededed;
     margin: 0 5%;
 }
@@ -33,53 +29,38 @@
 .flex-div {
    display: flex;
    flex-flow: wrap row;
-   overflow: hidden;
    justify-content: center;
    align-content: space-around;
    align-self: center;
    background-color: #ededed;
    width: 90%;  
-   height: 90%;
+   height: 40.5em;
 } 
 
 .flex-divs {
     display: flex;
-    background-color: orange;
     box-sizing: border-box;
-    overflow: hidden;
-    height: 45%;
-    width: 30%;
+    height:  18.75em;
+    width:  22.37em;
     margin: 10px;
-    line-height: 75px;
+    padding: 17px;
+    border-radius: 5px;
 }
-
 
 .cards {
     display: flex;
     align-self: flex-end;
     width: 100%;
-    justify-content: space-between;    
-    overflow: hidden;
+    justify-content: space-between;
+    color: white;    
 }
 
 .sub-div-card {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 50%;
     color: white;
-    overflow: hidden;
-}
-
-/* .apartir {
-    display: flex;
-    flex-direction: column;
-    color: white;
-} */
-
-p {
-    color: white;
-    padding: 1px 0px;
-    
 }
 
 .imagem {
@@ -99,7 +80,6 @@ p {
     background-size: cover;
     background-position: center;
 }
-
 .imagem-5 {
     background-image: url("./images/feet-g4f33e1281_1280.jpg");
     background-size: cover;
@@ -111,28 +91,84 @@ p {
 }
 
 .mixed {
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    z-index: 1;
-    top: 299px;
+    font-family: serif;
+    font-weight: 500;
 }
 
 .vestidos {
-    position: absolute;
-    z-index: 2;
-    top: 328px;
+    font-size: 18px;
 }
 
-.down-images {
-    position: absolute;
-    z-index: 1;
-    top: 518px;
+.valor {
+   font-size: 24px;
+   font-weight: 700;
+   text-align: right;
 }
 
-.down-images-2 {
-    position: absolute;
-    z-index: 2;
-    top: 518px;
-    top: 552px;
+.preco-conteiner {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 1201px) {
+    * {
+        overflow: auto;
+    }
+
+    .flex-div {
+        align-content: initial; 
+        width: 71rem;
+     }
+
+     .flex-section {
+        height: 46rem;
+        width: 77rem;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 768px) {
+   * {
+      overflow: auto;
+   }  
+
+   .flex-div {
+      align-content: initial; 
+   }
+
+   .flex-section {
+       width: 53rem;
+   }
+}
+
+@media screen and (max-width: 767px) and (min-width: 400px) {
+    * {
+        overflow: auto;
+    }  
+  
+     .flex-div {
+        align-content: initial; 
+    }  
+    
+    h2 {
+        padding-left: 13%;
+        font-size: 18px;
+    }
+
+    .flex-divs {
+        width: 27.37em;
+    }
+   
+}
+
+@media screen and (max-width: 399px) {
+    * {
+        overflow: auto;
+    }  
+
+    .flex-div {
+        align-content: initial; 
+    }  
 }
