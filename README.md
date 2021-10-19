@@ -2,7 +2,7 @@
 
 ---
 
-# Contenxto
+# Contexto
 
 Trata-se de uma réplica de uma interface para Desktop com design responsivo.
 
